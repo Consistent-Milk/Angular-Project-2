@@ -40,3 +40,10 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Ignore
+.angular
+src/assets
+src/environments
+node_modules
+.vscode

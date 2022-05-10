@@ -1,0 +1,23 @@
+.team-container {
+    margin-bottom: 1rem;
+  
+    &-head1 {
+      padding: 2rem 1rem 0rem 1rem;
+      text-align: center;
+      color: black;
+    }
+}
+  
+.team-container-ul {
+    text-align: center;
+    border: 0.2rem solid rgb(109, 11, 11);
+    margin: 0;
+    padding: 0.5rem;
+}
+
+li {
+  list-style: none;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}

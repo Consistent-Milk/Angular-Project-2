@@ -1,0 +1,11 @@
+<div class="team-container">
+    <h3 class="team-container-head1">Team {{ index+1 }}</h3>
+    <ul class="team-container-ul shadow">
+      <li 
+        *ngFor="let member of team; let i = index"
+      >
+        Member {{ i+1 }}: {{ member | titlecase }}
+      </li>
+    </ul>
+    {{ currentDate | date}}
+</div>
